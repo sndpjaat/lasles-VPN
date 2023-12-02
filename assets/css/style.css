@@ -1,0 +1,612 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: #4F5665;
+    font-size: 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: #0B132A;
+    font-size: 16px;
+}
+
+.border-right {
+    border-right: 2px solid #EEEFF2;
+    height: 125px;
+}
+
+.baground-white {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.max-width-383 {
+    max-width: 383px;
+}
+
+.box-shadow {
+    box-shadow: 1px 2px 10px 1px #4F5665;
+    border-radius: 10px;
+}
+.btn-1 {
+    color: #F53855;
+    font-family: Rubik;
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    background-color: white;
+    
+
+}
+
+.btn-1:hover {
+    background-color: #F53838;
+    color: white;
+    box-shadow: 0px 15px 15px 0px #F5383859;
+}
+
+.border-none {
+    border: none;
+}
+.heading {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+}
+
+.lasles-vpn {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 50px;
+}
+@media (max-width:1200px) {
+
+    nav .menu {
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+        color: #0B132A;
+        background-color: white;
+        transition: all 200ms linear;
+    }
+
+    nav .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 100px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 6;
+    }
+
+    .icon span {
+        width: 30px;
+        height: 4px;
+        background-color: red;
+        border-radius: 3px;
+        display: inline;
+
+    }
+
+    .nav-btn {
+        gap: 60px;
+        padding-top: 50px;
+    }
+
+    .fl-direction {
+        flex-direction: column;
+    }
+
+    #menu-box:checked~.menu {
+        right: 0;
+    }
+
+    .lg-flex-coloum {
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width:992px) {
+    .mb-150 {
+        margin-bottom: 0;
+    }
+
+    .gap-150 {
+        gap: 45px;
+    }
+
+    .gap-45 {
+        gap: 45px;
+    }
+}
+
+@media (max-width:415px) {
+
+    .mt-50 {
+        margin-top: 88% !important;
+    }
+}
+
+@media (max-width:1400px) {
+
+    .mt-50 {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width:992px) {
+
+    .mt-50 {
+        margin-top: 32%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .mt-50 {
+        margin-top: 50%;
+    }
+}
+
+h1 {
+    width: 555px;
+}
+
+.pt-101 {
+    padding-top: 101px;
+}
+.spera{
+    color: #0B132A;
+font-family: Rubik;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px;
+}
+
+.Want {
+    color: #0B132A;
+font-family: Rubik;
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: 70px; /* 140% */
+}
+.in{
+    color: #0B132A;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+
+.padding {
+    padding: 79px 92px;
+}
+.Provide{
+    color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+padding-top: 20px;
+}
+.About{
+    color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.btn-2{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 156.25% */  
+    border: 1px solid #F53855;
+    border-radius: 10px;
+    background-color:#F53855 ;
+    margin-top: 50px;
+    width: 250px;
+height: 60px;
+flex-shrink: 0;
+} 
+.btn-2:hover{
+    background-color: #F53838;
+    color: white;
+    box-shadow: 0px 15px 15px 0px #F5383859;
+}
+.degit{
+    color: #0B132A;
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 120% */
+}
+.Users{
+    color: #4F5665;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+.bk{
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 70px;
+background: #FFECEC;
+}
+.Features {
+    color: #0B132A;
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 142.857% */
+}
+.explore{
+    color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+padding-top: 30px;
+}
+.Powerfull{
+    color: #4F5665;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+}
+.Choose{
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 142.857% */
+}
+.package{
+    color: #4F5665;
+text-align: center;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-top: 20px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.crd-bux{
+    width: 100%;
+    height: 760px;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #FFF;
+}
+.crd-bux:hover {
+    border: 2px solid #F53838;
+    transition: all 300ms linear;
+    box-shadow: -1px 0px 58px 17px rgba(0, 0, 0, 0.18);
+}
+.Plan{
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+padding-top: 30px;
+line-height: 30px; /* 166.667% */
+}
+
+.Unlimited{
+    color: #4F5665;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+
+}
+.surma{
+    padding-top: 30px;
+}
+.free{
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+margin-top: 130px;
+line-height: 30px; /* 120% */
+}
+.pt-130{
+    padding-top: 130px;
+}
+.pt100{
+    padding-top:100px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.dolor{
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 120% */
+}
+.btn-3{
+    color: #F53838;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 177.876px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 50px;
+border: 2px solid #F53838;
+background-color: white;
+
+}
+.btn-3:hover{
+    background-color: #F53838;
+    color: white;
+    box-shadow: 0px 15px 15px 0px #F5383859;
+}
+.Huge{
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 142.857% */
+padding-top: 150px;
+}
+.everywhere{
+    color: #4F5665;
+text-align: center;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+.See{
+    color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+}
+.px-4{
+    padding-top: 150px;
+}
+.Trusted{
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px; /* 142.857% */
+}
+.stories{
+    color: #4F5665;
+text-align: center;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+.card_box{
+    /* width: 400px; */
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #FFF;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.card_box:hover{
+    border: 2px solid #DDD;
+    transition: all 300ms linear;
+    box-shadow: -1px 0px 58px 17px rgba(0, 0, 0, 0.18);
+}
+.Viezh{
+    color: #0B132A;
+text-align: center;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 166.667% */
+}
+.gap-50{
+    gap: 50px !important;
+}
+.Warsaw{
+    color: #4F5665;
+text-align: center;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 214.286% */
+}
+.pr-30{
+    padding-right: 30px;
+}
+.pl-20{
+    padding-left: 30px;
+}
+.pt-30{
+    padding-top: 30px;
+    
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+.gap-10{
+    gap: 10px;
+}
+.numb{
+    color: #0B132A;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+.very{
+    color: #0B132A;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+.btn-4{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+stroke: #F53838;
+border-radius: 50px;
+
+}
+.jox{
+max-width: 1140px;
+height: 233px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+
+}
+.jox:hover{
+     border: 2px solid #DDD;
+    transition: all 300ms linear;
+}
+.subscribe{
+    color: #0B132A;
+font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px; /* 128.571% */
+padding-top: 58px;
+padding-left: 70px;
+}
+.find{
+    color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+padding-top: 20px;
+padding-left: 70px;
+}
+.btn-6{
+    color: #FFF;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; /* 156.25% */
+width: 250px;
+height: 60px;
+margin-right: 70px;
+flex-shrink: 0;
+border-radius: 10px;
+border-radius: 50px;
+border: 2px solid #F53838;
+background-color:#F53838 ;
+
+}
+.btn-6:hover{
+    background-color: #F53838;
+    color: white;
+    box-shadow: 0px 15px 15px 0px #F5383859;
+}
+.private{
+    color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-top: 26px;
+}
+.Product{
+    color: #0B132A;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 166.667% */
+}
+.pt-58{
+    padding-top: 58px;
+}
+
